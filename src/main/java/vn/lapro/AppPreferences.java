@@ -12,7 +12,7 @@ public class AppPreferences {
     private static final String AUTHOR = "Trần Đức Huy";
     private static final String APP_NAME = "J2me App Cloner";
     public static final int CURRENT_YEAR = Calendar.getInstance().get(Calendar.YEAR);
-    public static final String CURRENT_VERSION = "1.0.1";
+    public static final String CURRENT_VERSION = "1.3";
 
     private static final Preferences preferences = Preferences.userNodeForPackage(AppPreferences.class);
 
